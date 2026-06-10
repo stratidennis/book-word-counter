@@ -35,7 +35,7 @@ pip install ebooklib beautifulsoup4 mobi python-docx pdfplumber
 ## Usage
 
 ### Double-click (macOS)
-Double-click `start.command` in Finder. The first time, right-click → Open → Open to allow it.
+Double-click `Count Words.command` in Finder. The first time, right-click → Open → Open to allow it.
 
 ### Double-click (Windows)
 Double-click `Count Words.bat`. If Windows shows a security prompt, click **Run anyway**.

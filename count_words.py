@@ -111,7 +111,12 @@ def extract_text_from_doc(path):
 
     # Strategy 2: LibreOffice headless conversion
     lo_candidates = [
+        # macOS
         "/Applications/LibreOffice.app/Contents/MacOS/soffice",
+        # Windows (common install locations)
+        r"C:\Program Files\LibreOffice\program\soffice.exe",
+        r"C:\Program Files (x86)\LibreOffice\program\soffice.exe",
+        # Linux / in PATH
         "libreoffice",
         "soffice",
     ]

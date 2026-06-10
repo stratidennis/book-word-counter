@@ -4,7 +4,7 @@ A simple desktop tool that counts the words in an eBook or document file. Built 
 
 ## Features
 
-- Pick a file from a native macOS file dialog
+- Pick a file from a native file dialog (works on macOS and Windows)
 - Optional **start phrase** — counting begins from the first occurrence of a phrase you enter
 - Optional **stop phrase** — counting stops when a phrase is reached (great for ignoring back-matter like acknowledgements or appendices)
 - Both phrases are matched case-insensitively
@@ -35,7 +35,12 @@ pip install ebooklib beautifulsoup4 mobi python-docx pdfplumber
 ## Usage
 
 ### Double-click (macOS)
-Double-click `Count Words.command` in Finder. The first time, right-click → Open → Open to allow it.
+Double-click `start.command` in Finder. The first time, right-click → Open → Open to allow it.
+
+### Double-click (Windows)
+Double-click `Count Words.bat`. If Windows shows a security prompt, click **Run anyway**.
+
+> Make sure [Python](https://www.python.org/downloads/) is installed and added to your PATH (tick the checkbox during the Python installer).
 
 ### Command line
 ```bash

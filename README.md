@@ -25,9 +25,16 @@ A simple desktop tool that counts the words in an eBook or document file. Built 
 
 ## Requirements
 
-- Python 3.8+
-- Dependencies are installed automatically on first run, or manually:
+### macOS
+1. Install [Python 3.8+](https://www.python.org/downloads/) if not already installed
+2. Python dependencies are installed automatically on first run, or manually:
+```bash
+pip3 install ebooklib beautifulsoup4 mobi python-docx pdfplumber
+```
 
+### Windows
+1. Install [Python 3.8+](https://www.python.org/downloads/) — during installation, make sure to tick **"Add Python to PATH"**
+2. Python dependencies are installed automatically on first run, or manually:
 ```bash
 pip install ebooklib beautifulsoup4 mobi python-docx pdfplumber
 ```
